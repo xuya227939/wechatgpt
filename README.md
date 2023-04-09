@@ -1,3 +1,8 @@
+## 重要！！！
+原项目地址：[原wechatgpt](https://github.com/houko/wechatgpt)
+
+由于国内无法直接调用 openAI 接口，而且原项目没有配置代理相关的代码，所以我给加上了，路径在 `/wechatgpt/openai/chatgpt.go`，修改 136 行代码，替换成自己的代理服务器端口，即可使用 `openAi` 接口，测试下来，很好使，但是要注意封号风险哦！
+
 ## 欢迎使用`wechatgpt`智能机器人，Let's Chat with ChatGPT
 
 如果觉得不错，请麻烦点个`Star`，非常感谢。（最新己经添加了docker部署的方式）
